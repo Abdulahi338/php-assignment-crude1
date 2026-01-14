@@ -35,7 +35,7 @@
                         <td><?= $row['email'] ?></td>
                         <td><?= $row['course'] ?></td>
                         <td>
-                            <a href="edit.php?id=<?= $row['id'] ?>" class="btn btn-warning btn-sm">Edit</a>
+                            <a href="update.php?id=<?= $row['id'] ?>" class="btn btn-warning btn-sm">Edit</a>
                             <a href="delete.php?id=<?= $row['id'] ?>" 
                                onclick="return confirm('Are you sure?')"
                                class="btn btn-danger btn-sm">Delete</a>
